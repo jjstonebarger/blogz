@@ -1,0 +1,159 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+    border-spacing: 0;
+    color: white
+}
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(50, 55, 118);
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    border-style: solid;
+    border-width: .1em;
+    border-radius: .3em;
+    border-color: rgb(50, 55, 118);
+    display: block;
+    margin: auto;
+}
+
+section{
+    margin: 2em 10em 2em 10em;
+    border-style: solid;
+}
+
+ul{
+    list-style-type:none;
+    color: white
+}
+
+p{
+    margin: 2em 0em 2em 0em;
+    color: white
+}
+
+h1{
+    font-family: 'Cormorant', serif;
+    font-size: 3em;
+    margin-bottom: .50em;
+    margin-top: .50em;
+    color: white
+
+}
+
+h2{
+    font-family: 'Cormorant', serif;
+    font-size: 2em;
+    margin-bottom: .30em;
+    text-align: center;
+    
+}
+
+em{
+    font-style: oblique;
+}
+
+a{
+    color: forestgreen;
+    text-decoration:none;
+    
+}
+
+
+a:visited{
+    color: rgb(126, 130, 177);
+}
+
+a:hover{
+    color: rgb(84, 89, 147);
+}
+/*====Classes====*/
+
+.nav_header{
+    margin: 4em 0em 0em 4em;
+}
+
+.link_list{
+    margin: 1em auto auto auto;
+    text-align: center;
+}
+
+.logo_footer{
+    height: 1em;
+    width: auto;
+    margin: auto;
+    float:left;
+}
+
+.img_leo{
+    height: 5em;
+    width:auto;
+    margin-bottom: 1em;
+}
+
+.img_footer{
+    width: 12em;
+    height: 16em;
+    float:left;
+}
+
+.footer_bio{
+    margin: auto 10em auto 10em;
+}
+
+.footer_logo{
+    float: none;
+}
+.footer_nav{
+    margin: auto;
+    text-align: center;
+}
+
+.nav_f_h{
+    margin-bottom: .5em;
+}

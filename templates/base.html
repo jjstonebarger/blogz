@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{page_title}}</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css')}}">
+        <style>
+            .error{
+                color: red;
+            }
+        </style>
+    </head>
+
+<body>
+    <nav>
+      
+            <p><a href="/login">LOGIN &emsp;</a>
+            <a href="/logout">LOGOUT &emsp;</a>
+            <a href="/">HOME &emsp;</a>
+            <a href="/blog">ALL POSTS &emsp;</a>
+            <a href="/blog/newpost">NEW POST &emsp;</a></p>
+        
+    </nav>
+
+    {% with messages = get_flashed_messages(with_categories=True) %}
+        <ul>
+        {% for category,message in messages %}
+            <li class="{{category}}">{{message}}</li>
+        {% endfor %}
+        </ul>
+    {% endwith %}
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>
+
