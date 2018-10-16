@@ -40,13 +40,13 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
     border-spacing: 0;
-    color: white
+    color: yellow
 }
 
 
 body{
     font-family: 'Raleway', sans-serif;
-    background-color: rgb(50, 55, 118);
+    background-color: green;
     margin-left: 2em;
     margin-top: 2em;
 }
@@ -57,7 +57,7 @@ img{
     border-style: solid;
     border-width: .1em;
     border-radius: .3em;
-    border-color: rgb(50, 55, 118);
+    border-color: green;
     display: block;
     margin: auto;
 }
@@ -69,12 +69,12 @@ section{
 
 ul{
     list-style-type:none;
-    color: white
+    color: yellow
 }
 
 p{
     margin: 2em 0em 2em 0em;
-    color: white
+    color: yellow
 }
 
 h1{
@@ -82,7 +82,7 @@ h1{
     font-size: 3em;
     margin-bottom: .50em;
     margin-top: .50em;
-    color: white
+    color:  yellow
 
 }
 
@@ -99,18 +99,18 @@ em{
 }
 
 a{
-    color: forestgreen;
+    color: rgb(47, 255, 116);
     text-decoration:none;
     
 }
 
 
 a:visited{
-    color: rgb(126, 130, 177);
+    color: greenyellow;
 }
 
 a:hover{
-    color: rgb(84, 89, 147);
+    color: rgb(47, 255, 116);
 }
 /*====Classes====*/
 
