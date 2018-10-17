@@ -43,6 +43,20 @@ User clicks on the title of a blog entry on the /blog page and lands on the indi
 
 User clicks "Logout" and is redirected to the /blog page and is unable to access the /newpost page 
 (is redirected to /login page instead) X
+
+========================================================================================================
+
+Create Dynamic User Pages:
+
+User is on the / page ("Home" page) and clicks on an author's username in the list and lands on the 
+individual blog user's page. X
+
+User is on the /blog page and clicks on the author's username in the tagline and lands on the 
+individual blog user's page. X
+
+User is on the individual entry page (e.g., /blog?id=1) and clicks on the author's username in
+the tagline and lands on the individual blog user's page X
+
 """
 
 
